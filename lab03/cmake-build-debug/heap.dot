@@ -1,0 +1,12 @@
+digraph FibonacciHeap {
+    "0x280d6e85d00" [label="Key: 1\nValue: r"];
+    "0x280d6e85d00" -> "0x280d6e81a80" [label="sibling"];
+    "0x280d6e81a80" [label="Key: 4\nValue: q"];
+    "0x280d6e81a80" -> "0x280d6e85ca0" [label="sibling"];
+    "0x280d6e85ca0" [label="Key: 6\nValue: e"];
+    "0x280d6e85ca0" -> "0x280d6e85d60" [label="sibling"];
+    "0x280d6e85d60" [label="Key: 3\nValue: w"];
+    "0x280d6e85d60" -> "0x280d6e85dc0" [label="sibling"];
+    "0x280d6e85dc0" [label="Key: 9\nValue: t"];
+    "0x280d6e85dc0" -> "0x280d6e85d00" [label="sibling"];
+}
